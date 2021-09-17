@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Ketchum;
+    src: url("../fonts/Ketchum.otf");
+}
+@font-face {
+    font-family: Ketchum Italic;
+    src: url("../fonts/Ketchum\ Italic.otf");
+}
+
+.header{
+    position: relative;
+    top: -1px;
+    background-color: antiquewhite;
+    min-width: 100%;
+    padding: 25px;
+    text-align: center;    
+}
+h1{
+    font-family: Ketchum;
+    color: rgb(255, 187, 0);
+    font-size: 3rem;
+    -webkit-text-stroke: 1px rgb(16, 5, 117);
+    text-shadow: 1px 3px 2px black;
+}

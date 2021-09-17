@@ -1,0 +1,45 @@
+
+
+.div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+
+button{
+        padding: 1rem;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: rgb(119, 0, 255);
+        box-shadow: 3px 5px 5px black;
+        transition: .5s ease;
+        font-family: Ketchum;
+        color: rgb(238, 177, 177);
+    }
+button:hover{
+   background-color: rgb(32, 189, 84);
+   box-shadow: 10px 5px 5px rgb(219, 102, 102);
+   color: black;
+   font-family: Ketchum italic;
+   padding: .9rem;
+   font-size: 29px;
+}
+    
+  
